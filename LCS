@@ -1,0 +1,81 @@
+Whiteboarding Session-->
+
+
+Longest Common Substring
+
+there is a efficient solution to this --> there is a dynamic programming solution 
+you won't be expected to come up with a solution to this 
+solution to dynamic programming involves memorization and brute-force 
+
+substring complexity 
+
+how does the caching work? 
+
+k m 
+a,b
+
+("ABAB" , "BABA" )
+                                        the overall time complexity of this is too great 
+=> 3    
+
+( a list, b list) => int 
+common_ss = set (substrings(A) * set(ss(B))
+
+
+max_length=0 
+for ss in com_ss;  0(k.m)
+if len(ss) > max_length; 
+max length = len (ss)
+
+
+for startpoint
+end_point
+
+--> every combination of start points and every combination of end points
+
+
+
+    A B A B
+  0 0 0 0 0       $ = if a[i]==b[j]
+B 0 $ 1 0 1            LCS(i,j)=LCS(i-1,j-1)
+A 0 1 0 2 0                 else 
+B 0 0 2 0 3                        LCS = 0 
+A 0 1 0 3 0      
+
+
+ 0(k.m)->0(min(+k,m))
+
+longest common substring sub problem 
+the longest common substring of a part
+longest common substring of 0 
+ 
+
+
+ _________new approach 
+
+ def LCS (a,b);
+    A=[[ o for_in range(len(a))]] for_ _ in range(len(b))]
+
+    for j in range(1, len(b));
+    for i in range (1, len(a);
+        
+        if max_value <  A [j][i]= A[j-1][i-1]+1
+           max_value =
+
+        else:
+        A[j][i]= 0
+
+        junior position --> past experience --> what have you built
+        facebook or google would ask you this question 
+        --> knowing this type of pattern would be helpful
+
+        --> 
+        design questions --> how would you design this application? how would you build this? 
+        
+
+
+
+
+
+
+     
